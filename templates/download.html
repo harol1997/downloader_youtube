@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/download.css')}}">
+</head>
+<body>
+    
+    <div class="container-bar">
+
+        <h1 class="Title">Downloading...</h1>
+        <div id = "content-bar" class="content-bar">
+        </div>
+        <p id="measure-bar" class="measure-bar">0%</p>    
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.5/socket.io.js"></script> 
+    <script src="{{url_for('static',filename='js/download.js')}}"></script>
+</body>
+</html>

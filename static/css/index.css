@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container-form{
+    position: absolute;
+    top: 50%;
+    width:100%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding:50px
+    
+}
+
+.form{
+    padding:50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5px;
+    row-gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.input-url{
+    padding: 5px;
+}
+
+.input-url:focus{
+    outline: 0;
+}

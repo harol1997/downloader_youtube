@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container-bar{
+    
+    padding: 20px;
+    display: grid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:80%;
+    transform: translate(-50%,-50%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title{
+    font-family: Verdana,Tahoma, sans-serif;   
+}
+
+.content-bar{
+    
+    background-color: rgba(168, 168, 165, 0.89);
+    height: 50px;
+    width: 4%;
+}
+
+.measure-bar{
+    text-align: center;
+    width: 100%;
+}
