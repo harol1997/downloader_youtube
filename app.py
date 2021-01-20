@@ -12,6 +12,8 @@ from download import Downloader
 
 DIRECTORY_MUSIC = "static/music"
 
+monkey_patch()
+
 if not path.exists(DIRECTORY_MUSIC):
     mkdir(DIRECTORY_MUSIC)
 
