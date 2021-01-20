@@ -15,7 +15,7 @@ DIRECTORY_MUSIC = "static/music"
 if not path.exists(DIRECTORY_MUSIC):
     mkdir(DIRECTORY_MUSIC)
 
-monkey_patch()
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
 socketio = SocketIO(app,logger=True, engineio_logger=True)
