@@ -116,4 +116,4 @@ def download(filename):
 
 if __name__ == "__main__":
     system("clear")
-    socketio.run(app,debug=True)
+    socketio.run(app,port=80,host="0.0.0.0")

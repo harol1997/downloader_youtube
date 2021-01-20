@@ -17,7 +17,6 @@ socketio.on('progressbar',function(value){
     }
     else if(value.state == "finish"){
         window.open(`/download/${value.name}`)
-        window.close()
     }
 });
 
