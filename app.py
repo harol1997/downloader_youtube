@@ -115,5 +115,8 @@ def download(filename):
         return str(error)
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     system("clear")
+=======
+>>>>>>> 2b6db253f0636e20c8945071e8010cef1614eb49
     socketio.run(app,port=5000)
