@@ -1,4 +1,4 @@
-let socketio = io(location.protocol+'//'+document.domain+':'+location.port);
+let socketio = io(window.location.protocol+'//'+document.domain+':'+location.port);
 
 //events socket
 
